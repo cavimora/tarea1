@@ -5,7 +5,7 @@ var APP = window.APP = window.APP || {};
 APP.porque = (function () {
 
     var bindEventsToUI = function () {
-
+        $('a[href="porque.html').parent().addClass('active');
     };
 
     var init = function () {

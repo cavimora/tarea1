@@ -5,7 +5,7 @@ var APP = window.APP = window.APP || {};
 APP.pasatiempos = (function () {
 
     var bindEventsToUI = function () {
-
+        $('a[href="pasatiempos.html').parent().addClass('active');
     };
 
     var init = function () {

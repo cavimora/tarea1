@@ -5,7 +5,8 @@ var APP = window.APP = window.APP || {};
 APP.acercade = (function () {
 
     var bindEventsToUI = function () {
-
+        // $('navbar a').parent().addClass('active');
+        $('a[href="acercade.html').parent().addClass('active');
     };
 
     var init = function () {

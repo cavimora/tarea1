@@ -5,7 +5,7 @@ var APP = window.APP = window.APP || {};
 APP.descargas = (function () {
 
     var bindEventsToUI = function () {
-
+        $('a[href="descargas.html').parent().addClass('active');
     };
 
     var init = function () {

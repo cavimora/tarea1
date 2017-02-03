@@ -5,7 +5,7 @@ var APP = window.APP = window.APP || {};
 APP.computacion = (function () {
 
     var bindEventsToUI = function () {
-
+        $('a[href="computacion.html').parent().addClass('active');
     };
 
     var init = function () {

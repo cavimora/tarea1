@@ -2,12 +2,12 @@
 
 .index {
 
-    @include respond-to($medium) {
-        color:#ff0000;
-    }
+    // @include respond-to($medium) {
+    //     color:#ff0000;
+    // }
 
-    @include respond-to($large) {
-        color:#333333;
-    }
+    // @include respond-to($large) {
+    //     color:#333333;
+    // }
 
 }

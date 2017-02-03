@@ -5,7 +5,7 @@ var APP = window.APP = window.APP || {};
 APP.profesycompas = (function () {
 
     var bindEventsToUI = function () {
-
+        $('a[href="profesycompas.html').parent().addClass('active');
     };
 
     var init = function () {

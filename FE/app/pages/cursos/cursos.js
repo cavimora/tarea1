@@ -5,7 +5,7 @@ var APP = window.APP = window.APP || {};
 APP.cursos = (function () {
 
     var bindEventsToUI = function () {
-
+        $('a[href="cursos.html').parent().addClass('active');
     };
 
     var init = function () {

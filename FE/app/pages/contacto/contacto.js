@@ -5,7 +5,7 @@ var APP = window.APP = window.APP || {};
 APP.contacto = (function () {
 
     var bindEventsToUI = function () {
-
+        $('a[href="contacto.html').parent().addClass('active');
     };
 
     var init = function () {
